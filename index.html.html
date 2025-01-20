@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chime Login</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #00e676;
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+      background-color: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 5px;
+      color: white;
+      padding: 10px;
+      font-size: 1rem;
+      outline: none;
+    }
+
+    input[type="email"]::placeholder,
+    input[type="password"]::placeholder {
+      color: #666;
+    }
+
+    .btn {
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .links {
+      margin-top: 20px;
+      font-size: 0.9rem;
+    }
+
+    .links a {
+      color: #00e676;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.8rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">chime<sup>®</sup></div>
+    <form>
+      <input type="email" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <button class="btn" disabled>Sign in</button>
+    </form>
+    <div class="links">
+      <p><a href="#">Forgot your email address?</a></p>
+      <p><a href="#">Forgot your password?</a></p>
+      <p><a href="#">Need to create an account? Sign up!</a></p>
+    </div>
+    <footer>
+      <p>© 2025 Chime. All Rights Reserved.</p>
+      <p>Banking Services provided by The Bancorp Bank, N.A., or Stride Bank, N.A., Members FDIC. The Chime Visa® Debit Card is issued by The Bancorp Bank, N.A., or Stride Bank pursuant to a license from Visa U.S.A. Inc. and may be used everywhere Visa debit cards are accepted. Please see the back of your Card for its issuing bank.</p>
+    </footer>
+  </div>
+</body>
+</htm
